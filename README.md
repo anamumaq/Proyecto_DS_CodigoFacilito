@@ -8,6 +8,7 @@ La empresa se dedica a la venta de intangibles con dos principales productos.
 Debido a la competencia del sector, la empresa suele competir con otras compañias por tratar de tener los mejores colaboradores con una rotacion menor a la del mercado.
 
 ## Bases a Utilizar
+* Link a las bases de datos se encuentran en el ipynb alojados en drive
 ### 1. Planilla:
 * Importancia: 
     * Base de colaboradores y el area de donde pertenecen desde el 2018 al 2021 
