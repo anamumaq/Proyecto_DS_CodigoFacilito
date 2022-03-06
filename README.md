@@ -1,5 +1,9 @@
 # Proyecto_DS_CodigoFacilito
 Proyecto Final para el bootcamp de Data Science en Codigo Facilito
+## Composicion
+* Se tienen un archivo de analisis previo, donde se revisa el alcance del proyecto, definiciendo que tipo de rotacion debo analizar segun el comportamiento estadisticamente encontrado
+* El segundo archivo es el analisis de grupal, donde se hace unos joins, limpieza y prediccion con el modelo
+* El pdf de la presentacion a modo resumen de los dos ipynb de analisis
 
 ## Antecentes - Variables
 La empresa se dedica a la venta de intangibles con dos principales productos.
