@@ -18,71 +18,29 @@ Debido a la competencia del sector, la empresa suele competir con otras compañi
 * Importancia: 
     * Reporte de Encuestas hechas a cesados en el proceso de salida de la empresa
 * Variables a usar:
-    * CESE, Ingreso, COD, Cargo
+    * CESE, Ingreso, COD, Cargo, Motivo, tipo de cese
 ### 3. Programa de mejora
 * Importancia: 
     * Base de colaboradores que entraron al programa de mejora y su tiempo de permanencia. si no cumple con el programa el colaborador es invitado a retirarse.
 * Variables a usar:
-    * Codigo, motivo, fecha inicio programa, status programa
+    * Codigo, motivo, fecha inicio programa
 ### 4. Memorandum
 * Importancia: 
     * Lista de memorandums aplicados a los colaboradores por diferentes tipos de falta
 * Variables a usar:
-    * Codigo, Cargo, Fecha de memo, Reporte
-### 5. Vacaciones
-* Importancia: 
-    * Nro de vacaciones acumuladas por no tomarlas cuando correspondia, al ano se se deberian tomar 30 dias de vacaciones
-* Variables a usar:
-    * Codigo, cargo, Dias pendientes
-### 6. Desacanso Medico
-* Importancia: 
-    * Nro de dias otrogados a los colaboradores por descanso medico por mes
-* Variables a usar:
-    * Codigo, cargo, Dias de descanso medico
-### 7. Bonos Venta Individual y grupal
+    * Codigo, Cargo
+### 5. Bonos Venta Individual y grupal
 * Importancia: 
     * Bono otorgado por cumplir ciertas reglas y metas en las ventas del mes en individual y Grupal
 * Variables a usar:
     * CESE, Ingreso, COD, Cargo
-### 8. Desempeno
+### 6. Hijos total
 * Importancia: 
     * Nro de vacaciones acumuladas por no tomarlas cuando correspondia, al ano se se deberian tomar 30 dias de vacaciones
 * Variables a usar:
-    * CESE, Ingreso, COD, Cargo
-### 9. Reconocimientos
+    * CESE, Ingreso, COD, Cargo, fecha nacimiento
+### 7. Info personal
 * Importancia: 
     * Nro de vacaciones acumuladas por no tomarlas cuando correspondia, al ano se se deberian tomar 30 dias de vacaciones
 * Variables a usar:
-    * CESE, Ingreso, COD, Cargo
-### 10. Hijos total
-* Importancia: 
-    * Nro de vacaciones acumuladas por no tomarlas cuando correspondia, al ano se se deberian tomar 30 dias de vacaciones
-* Variables a usar:
-    * CESE, Ingreso, COD, Cargo
-### 11. Info personal
-* Importancia: 
-    * Nro de vacaciones acumuladas por no tomarlas cuando correspondia, al ano se se deberian tomar 30 dias de vacaciones
-* Variables a usar:
-    * CESE, Ingreso, COD, Cargo
-### 12. Recategorizaciones
-* Importancia: 
-    * Nro de vacaciones acumuladas por no tomarlas cuando correspondia, al ano se se deberian tomar 30 dias de vacaciones
-* Variables a usar:
-    * CESE, Ingreso, COD, Cargo
-### 13. Cobertura Personal - Oficina
-* Importancia: 
-    * Nro de vacaciones acumuladas por no tomarlas cuando correspondia, al ano se se deberian tomar 30 dias de vacaciones
-* Variables a usar:
-    * CESE, Ingreso, COD, Cargo
-### 14. Antiguedad de Oficina
-* Importancia: 
-    * Nro de vacaciones acumuladas por no tomarlas cuando correspondia, al ano se se deberian tomar 30 dias de vacaciones
-* Variables a usar:
-    * CESE, Ingreso, COD, Cargo
-### 15. GPTW por oficina
-* Importancia: 
-    * Nro de vacaciones acumuladas por no tomarlas cuando correspondia, al ano se se deberian tomar 30 dias de vacaciones
-* Variables a usar:
-    * CESE, Ingreso, COD, Cargo
-
-
+    * CESE, Ingreso, COD, Cargo, estado civil, educacion
