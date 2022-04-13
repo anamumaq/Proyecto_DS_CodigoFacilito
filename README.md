@@ -1,51 +1,49 @@
-# Proyecto_DS_CodigoFacilito
-Proyecto Final para el bootcamp de Data Science en Codigo Facilito
-## Composicion
-* Se tienen un archivo de analisis previo, donde se revisa el alcance del proyecto, definiciendo que tipo de rotacion debo analizar segun el comportamiento estadisticamente encontrado
-* El segundo archivo es el analisis de grupal, donde se hace unos joins, limpieza y prediccion con el modelo
-* El pdf de la presentacion a modo resumen de los dos ipynb de analisis
+# Proyecto Employee Trunover
 
-## Antecentes - Variables
-La empresa se dedica a la venta de intangibles con dos principales productos.
-* Los productos de venta individual son otorgados a personas natuales
-* Los productos de venta grupal son otorgados a varias personas que conforman un grupo
-Debido a la competencia del sector, la empresa suele competir con otras compañias por tratar de tener los mejores colaboradores con una rotacion menor a la del mercado.
+## Motivación
 
-## Bases a Utilizar
-* Link a las bases de datos se encuentran en el ipynb alojados en drive
+La rotación en las empresas suele ser un pain, pues el cese de un colaborador siempre generará costos no planeados
+Este impacto aumenta cuando el cese se da en puestos claves para negocio
+** Para la empresa de este proyecto detectar los motivos de cese y predecir la rotación es principalente importante, ya que la industria donde se encuentra tiene bastante competencia y por ende mucha oferta de trabajo **
+
+## Definición de Cese
+
+En la primera estapa del proyecto definicimos el cese a analizar según su comporamiento histórico
+  * Solo se anaizarán ceses volunatarios
+  * Algunos motivos de ceses
+  * Y una antiguedad mayor a 9 meses
+
+## Variables a utilizar
+
 ### 1. Planilla:
-* Importancia: 
-    * Base de colaboradores y el area de donde pertenecen desde el 2018 al 2021 
-    * Es el archivo madre desde donde trabajar porque tiene todos los colaboradores
-* Variables a usar:
-    * MES, COD, Cargo, Oficina, Producto, Territorio y Zona
+  * Base de colaboradores y el area de donde pertenecen desde el 2018 al 2021 
+  * Es el archivo base desde donde se trabajara
 ### 2. Entrevistas Ceses
-* Importancia: 
-    * Reporte de Encuestas hechas a cesados en el proceso de salida de la empresa
-* Variables a usar:
-    * CESE, Ingreso, COD, Cargo, Motivo, tipo de cese
+  * Reporte de Encuestas hechas a cesados en el proceso de salida de la empresa
+  * Se utilian la variables motivo de cese, antiguedad y tipo de cese
 ### 3. Programa de mejora
-* Importancia: 
-    * Base de colaboradores que entraron al programa de mejora y su tiempo de permanencia. si no cumple con el programa el colaborador es invitado a retirarse.
-* Variables a usar:
-    * Codigo, motivo, fecha inicio programa
+  * Base de colaboradores que entraron al programa de mejora por bajo desempeño o alguna indiciplina.
+  * Nro de veces que entro al prorama de mejora
 ### 4. Memorandum
-* Importancia: 
-    * Lista de memorandums aplicados a los colaboradores por diferentes tipos de falta
-* Variables a usar:
-    * Codigo, Cargo
-### 5. Bonos Venta Individual y grupal
-* Importancia: 
-    * Bono otorgado por cumplir ciertas reglas y metas en las ventas del mes en individual y Grupal
-* Variables a usar:
-    * CESE, Ingreso, COD, Cargo
+  * Lista de memorandums aplicados a los colaboradores por diferentes tipos de falta
+  * Nro de Memoradums que tiene el colaborador
+### 5. Bonos Venta
+  * Bono otorgado (aparte del sueldo) por cumplir con las ventas
+  * Bono promedio histórico, Desviación estandar de los bonos recibidos, Nro de veces que obtuvo un bono menor al 25% (1er cuartil)
 ### 6. Hijos total
-* Importancia: 
-    * Nro de vacaciones acumuladas por no tomarlas cuando correspondia, al ano se se deberian tomar 30 dias de vacaciones
-* Variables a usar:
-    * CESE, Ingreso, COD, Cargo, fecha nacimiento
+  * Nro de hijos que tiene cada colaboradores
+  * Total de hijos menores a 18 años
 ### 7. Info personal
-* Importancia: 
-    * Nro de vacaciones acumuladas por no tomarlas cuando correspondia, al ano se se deberian tomar 30 dias de vacaciones
-* Variables a usar:
-    * CESE, Ingreso, COD, Cargo, estado civil, educacion
+  * Informacon basica del colaborador
+  * Edad, Sexo, Antiguedad, estado civil y nivel educacion
+### 8. Desempeño
+  * Desmpeño mensual el colaborador en el tiempo
+  * Desmpeño promedio histórico, Desviación estandar del Desmpeño, Nro de veces que obtuvo un Desmpeño menor al 25% (1er cuartil)
+### 9. Descanso medico
+  * Lista de colaboradores que tuvieron descanso medico
+  * Suma total de dias de Descanso Medico
+
+## Conclusiones
+
+* Se realizó una regresión logistica para detectar la probabilidad que un colaborador cese
+* Se detectaron las principales variables que influyen en la rotación directamente o inversamente
