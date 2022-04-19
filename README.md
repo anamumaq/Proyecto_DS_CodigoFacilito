@@ -4,7 +4,7 @@
 
 La rotación en las empresas suele ser un pain, pues el cese de un colaborador siempre generará costos no planeados
 Este impacto aumenta cuando el cese se da en puestos claves para negocio
-** Para la empresa de este proyecto detectar los motivos de cese y predecir la rotación es principalente importante, ya que la industria donde se encuentra tiene bastante competencia y por ende mucha oferta de trabajo **
+**Para la empresa de este proyecto detectar los motivos de cese y predecir la rotación es principalente importante, ya que la industria donde se encuentra tiene bastante competencia y por ende mucha oferta de trabajo**
 
 ## Definición de Cese
 
