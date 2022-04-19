@@ -1,4 +1,4 @@
-# Proyecto Employee Trunover
+# Proyecto Employee Turnover
 
 ## Motivación
 
